@@ -1,7 +1,7 @@
-var message:string = "hello world"
-var n:number = 12;
-console.log(message)
-console.log(n)
+//var message:string = "hello world"
+//var n:number = 12;
+//console.log(message)
+//console.log(n)
 
 class G {
   protected num:number;
@@ -27,7 +27,7 @@ class Son extends G {
 
 
 
-var obj = new Son("kkk");
-var obj2 = new Son(454);
-obj.Greet();
-obj2.Greet();
+//var obj = new Son("kkk");
+//var obj2 = new Son(454);
+//obj.Greet();
+//obj2.Greet();

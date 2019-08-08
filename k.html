@@ -2,23 +2,25 @@
  <head>
   <meta charset="utf-8" />
 	<script src="jquery.min.js"></script>
+	<script src="k.js"></script>
+	<script src="module.js"></script>
 	<script>
 		var CONTACT_DATA = [
-			{ DisplayText: 'Help',
-				Email: 'help@site.com' } ,
-			{ DisplayText: 'Contace',
-				Email: 'contactus@site.com' },
-			{ DisplayText: 'Webmaster',
-				Email: 'webmaster@site.com' }
+			{ DisplayText: 'Help', Email: 'help@site.com' } ,
+			{ DisplayText: 'Contace', Email: 'contactus@site.com' },
+			{ DisplayText: 'Webmaster', Email: 'webmaster@site.com' }
 		];
 	</script>
-	<script src=k.js></script>
+	<script src=get.js></script>
+	<script src=battery.js></script>
   <title>
    토론과 민주적인 의사 결정
   </title>
  </head>
  <body>
 	<div id="12"></div>
+	<button id='b1'>Click me</button>
+	<button onclick=b.on_click()>Click me</button>
  </body>
 </html>
 
